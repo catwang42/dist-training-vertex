@@ -14,7 +14,7 @@
             "bootDiskSizeGb": 100
           },    
           "containerSpec": {
-            "imageUri": "classicboyir/nemo:02",
+            "imageUri": "catwang42/nemo:01",
             "command": [
                 "sh", "-c"
             ],
@@ -57,7 +57,7 @@
             "bootDiskSizeGb": 100
           },    
           "containerSpec": {
-            "imageUri": "classicboyir/nemo:02",
+            "imageUri": "catwang42/nemo:01",
             "command": [
                 "sh", "-c"
             ],
