@@ -94,8 +94,8 @@ if [ -z "$NNODES" ] || [ -z "$CONFIG_PATH" ] || [ -z "$CONFIG_NAME" ] || [ -z "$
     usage
 fi
 
-echo "sleep for 10 seconds to let services boot up"
-sleep 10
+echo "sleep for 60 seconds to let services boot up"
+sleep 60
 
 echo "Launching Torch distributed as node rank $RANK out of $NNODES nodes"
 OMP_NUM_THREADS=12 RANK=$RANK HYDRA_FULL_ERROR=1 \
